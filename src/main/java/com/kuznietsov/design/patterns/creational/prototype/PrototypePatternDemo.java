@@ -21,7 +21,7 @@ public class PrototypePatternDemo {
             "Square", new Square()
     );
 
-    public static Shape getShape(String shapeId) {
+    private static Shape getShape(String shapeId) {
         Shape shape = shapeMap.get(shapeId);
         return shape.clone();
     }

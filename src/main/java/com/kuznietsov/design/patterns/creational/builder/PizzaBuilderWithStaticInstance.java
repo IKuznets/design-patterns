@@ -9,6 +9,22 @@ class PizzaBuilderWithStaticInstance {
     private String sauce;
     private String topping;
 
+    public String getType() {
+        return type;
+    }
+
+    public String getDough() {
+        return dough;
+    }
+
+    public String getSauce() {
+        return sauce;
+    }
+
+    public String getTopping() {
+        return topping;
+    }
+
     static class Builder {
 
         private static PizzaBuilderWithStaticInstance pizzaBuilderWithStaticInstance;
@@ -23,17 +39,17 @@ class PizzaBuilderWithStaticInstance {
         }
 
         Builder dough(String dough) {
-            pizzaBuilderWithStaticInstance.type = dough;
+            pizzaBuilderWithStaticInstance.dough = dough;
             return this;
         }
 
         Builder sauce(String sauce) {
-            pizzaBuilderWithStaticInstance.type = sauce;
+            pizzaBuilderWithStaticInstance.sauce = sauce;
             return this;
         }
 
         Builder topping(String topping) {
-            pizzaBuilderWithStaticInstance.type = topping;
+            pizzaBuilderWithStaticInstance.topping = topping;
             return this;
         }
 

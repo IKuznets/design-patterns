@@ -1,8 +1,8 @@
 package com.kuznietsov.design.patterns.creational.prototype;
 
-public class Square extends Shape {
+class Square extends Shape {
 
-    public Square() {
+    Square() {
         type = "Square";
     }
 

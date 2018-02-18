@@ -1,8 +1,8 @@
 package com.kuznietsov.design.patterns.creational.prototype;
 
-public class Rectangle extends Shape {
+class Rectangle extends Shape {
 
-    public Rectangle() {
+    Rectangle() {
         type = "Rectangle";
     }
 

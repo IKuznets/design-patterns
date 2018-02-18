@@ -7,6 +7,22 @@ class PizzaBuilder {
     private final String sauce;
     private final String topping;
 
+    public String getType() {
+        return type;
+    }
+
+    public String getDough() {
+        return dough;
+    }
+
+    public String getSauce() {
+        return sauce;
+    }
+
+    public String getTopping() {
+        return topping;
+    }
+
     static class Builder {
 
         private String type;

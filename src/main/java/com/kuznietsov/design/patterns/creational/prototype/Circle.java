@@ -1,8 +1,8 @@
 package com.kuznietsov.design.patterns.creational.prototype;
 
-public class Circle extends Shape {
+class Circle extends Shape {
 
-    public Circle() {
+    Circle() {
         type = "Circle";
     }
 

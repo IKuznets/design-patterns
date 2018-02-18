@@ -3,7 +3,7 @@ package com.kuznietsov.design.patterns.creational.prototype;
 public abstract class Shape implements Cloneable {
 
     private String id;
-    protected String type;
+    String type;
 
     public String getId() {
         return id;
@@ -13,7 +13,7 @@ public abstract class Shape implements Cloneable {
         this.id = id;
     }
 
-    public String getType() {
+    String getType() {
         return type;
     }
 
